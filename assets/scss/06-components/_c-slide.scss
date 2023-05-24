@@ -1,7 +1,9 @@
 .c-slide {
-  margin-top: $space-16;
-  background-color: $color-black;
   padding: 120px 0;
+  background: url('../img/bg-slide-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   &-title {
     font-size: $size-48;
     line-height: $space-56;
@@ -48,7 +50,7 @@
     border-radius: 50%;
     background-color: $color-white;
     text-align: center;
-    padding-top: 12px;
+    padding-top: $space-24;
     &__info {
       display: flex;
       flex-direction: column;
@@ -66,13 +68,13 @@
         span {
           position: absolute;
           top: 8px;
-          font-size: $size-48;
+          font-size: $size-56;
         }
       }
       &-date {
         position: absolute;
         right: 22px;
-        bottom: 42px;
+        bottom: $space-24;
         color: $color-base;
         font-size: $size-16;
       }
@@ -80,13 +82,12 @@
         font-size: $size-16;
         color: $color-base;
         font-weight: $font-bold;
-        margin-bottom: $space-16;
       }
     }
     &__channel {
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 10px;
+      grid-gap: $space-8;
       &-logo {
         width: $size-56;
         text-align: center;
