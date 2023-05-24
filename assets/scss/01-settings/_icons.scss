@@ -1,0 +1,530 @@
+@font-face {
+  font-family: 'quiron-icon';
+  src:  url('../fonts/icons/quiron-icon.eot?drod7t');
+  src:  url('../fonts/icons/quiron-icon.eot?drod7t#iefix') format('embedded-opentype'),
+    url('../fonts/icons/quiron-icon.ttf?drod7t') format('truetype'),
+    url('../fonts/icons/quiron-icon.woff?drod7t') format('woff'),
+    url('../fonts/icons/quiron-icon.svg?drod7t#quiron-icon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+$ff-quiron-icon: 'quiron-icon';
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'quiron-icon';
+  font-style: normal;
+ font-weight: $font-regular;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.qr-icon-gen-facial:before {
+  content: "\e9a6";
+}
+.qr-icon-gen-consult:before {
+  content: "\e99d";
+}
+.qr-icon-gen-test:before {
+  content: "\e99e";
+}
+.qr-icon-not-invasive:before {
+  content: "\e99f";
+}
+.qr-icon-bicycle:before {
+  content: "\e9a0";
+}
+.qr-icon-rhino-results:before {
+  content: "\e9a1";
+}
+.qr-icon-eye-pigment:before {
+  content: "\e9a2";
+}
+.qr-icon-eye-hydration:before {
+  content: "\e9a3";
+}
+.qr-icon-lip-volume:before {
+  content: "\e9a4";
+}
+.qr-icon-lip-wrinkles:before {
+  content: "\e9a5";
+}
+.qr-icon-fasting:before {
+  content: "\e99c";
+}
+.qr-icon-ocu-detect:before {
+  content: "\e998";
+}
+.qr-icon-ocu-tests:before {
+  content: "\e999";
+}
+.qr-icon-ocu-precision:before {
+  content: "\e99a";
+}
+.qr-icon-ocu-curvature:before {
+  content: "\e99b";
+}
+.qr-icon-mamo-reduct:before {
+  content: "\e997";
+}
+.qr-icon-mamo-prot-change:before {
+  content: "\e900";
+}
+.qr-icon-gine-masc-chest:before {
+  content: "\e901";
+}
+.qr-icon-gine-flat-chest:before {
+  content: "\e902";
+}
+.qr-icon-gine-gland-remove:before {
+  content: "\e903";
+}
+.qr-icon-lipo-contour-def:before {
+  content: "\e904";
+}
+.qr-icon-lipo-sil-remo:before {
+  content: "\e905";
+}
+.qr-icon-lipo-local-fat:before {
+  content: "\e906";
+}
+.qr-icon-blefa-illumination:before {
+  content: "\e907";
+}
+.qr-icon-blefa-bag-remove:before {
+  content: "\e908";
+}
+.qr-icon-blefa-lid-lift:before {
+  content: "\e909";
+}
+.qr-icon-abdo-musc-recons:before {
+  content: "\e90a";
+}
+.qr-icon-abdo-skin-reduct:before {
+  content: "\e90b";
+}
+.qr-icon-abdo-fat-reduct:before {
+  content: "\e90c";
+}
+.qr-icon-mamo-increase:before {
+  content: "\e987";
+}
+.qr-icon-mamo-elevation:before {
+  content: "\e988";
+}
+.qr-icon-mamo-better:before {
+  content: "\e989";
+}
+.qr-icon-task:before {
+  content: "\e986";
+}
+.qr-icon-specific:before {
+  content: "\e984";
+}
+.qr-icon-invasive:before {
+  content: "\e985";
+}
+.qr-icon-remove:before {
+  content: "\e981";
+}
+.qr-icon-calendar-8:before {
+  content: "\e982";
+}
+.qr-icon-calendar-4:before {
+  content: "\e983";
+}
+.qr-icon-minus:before {
+  content: "\e97f";
+}
+.qr-icon-more:before {
+  content: "\e980";
+}
+.qr-icon-hide:before {
+  content: "\e97e";
+}
+.qr-icon-eye:before {
+  content: "\e97c";
+}
+.qr-icon-info-square:before {
+  content: "\e97d";
+}
+.qr-icon-calendar-25:before {
+  content: "\e977";
+}
+.qr-icon-date-biologic:before {
+  content: "\e978";
+}
+.qr-icon-geneology:before {
+  content: "\e979";
+}
+.qr-icon-saliva:before {
+  content: "\e97a";
+}
+.qr-icon-stomach:before {
+  content: "\e97b";
+}
+.qr-icon-bills:before {
+  content: "\e975";
+}
+.qr-icon-shipment:before {
+  content: "\e976";
+}
+.qr-icon-arrow-detail:before {
+  content: "\e974";
+}
+.qr-icon-neuro:before {
+  content: "\e971";
+}
+.qr-icon-dream:before {
+  content: "\e972";
+}
+.qr-icon-calendar-7:before {
+  content: "\e973";
+}
+.qr-icon-calendar-15:before {
+  content: "\e970";
+}
+.qr-icon-results-ocular:before {
+  content: "\e96e";
+}
+.qr-icon-ambulatory:before {
+  content: "\e96f";
+}
+.qr-icon-blood:before {
+  content: "\e96c";
+}
+.qr-icon-laboratory:before {
+  content: "\e96d";
+}
+.qr-icon-sintomas:before {
+  content: "\e96b";
+}
+.qr-icon-alert:before {
+  content: "\e96a";
+}
+.qr-icon-team:before {
+  content: "\e969";
+}
+.qr-icon-document:before {
+  content: "\e968";
+}
+.qr-icon-cart:before {
+  content: "\e967";
+}
+.qr-icon-wrinkles:before {
+  content: "\e966";
+}
+.qr-icon-rejuvenation:before {
+  content: "\e95e";
+}
+.qr-icon-lips:before {
+  content: "\e95f";
+}
+.qr-icon-hydration:before {
+  content: "\e960";
+}
+.qr-icon-harmonize:before {
+  content: "\e961";
+}
+.qr-icon-facial:before {
+  content: "\e962";
+}
+.qr-icon-brightness:before {
+  content: "\e963";
+}
+.qr-icon-blurred:before {
+  content: "\e964";
+}
+.qr-icon-aging:before {
+  content: "\e965";
+}
+.qr-icon-morning:before {
+  content: "\e95c";
+}
+.qr-icon-late:before {
+  content: "\e95d";
+}
+.qr-icon-constants:before {
+  content: "\e95b";
+}
+.qr-icon-compatibility:before {
+  content: "\e95a";
+}
+.qr-icon-couple:before {
+  content: "\e958";
+}
+.qr-icon-individual:before {
+  content: "\e959";
+}
+.qr-icon-sample-blood:before {
+  content: "\e950";
+}
+.qr-icon-gluten:before {
+  content: "\e951";
+}
+.qr-icon-urine:before {
+  content: "\e952";
+}
+.qr-icon-contraceptive:before {
+  content: "\e953";
+}
+.qr-icon-fiability:before {
+  content: "\e954";
+}
+.qr-icon-paternity:before {
+  content: "\e955";
+}
+.qr-icon-advice:before {
+  content: "\e956";
+}
+.qr-icon-alopecia:before {
+  content: "\e957";
+}
+.qr-icon-check-form:before {
+  content: "\e94f";
+}
+.qr-icon-return:before {
+  content: "\e94e";
+}
+.qr-icon-gift:before {
+  content: "\e94d";
+}
+.qr-icon-contact-help:before {
+  content: "\e948";
+}
+.qr-icon-card:before {
+  content: "\e949";
+}
+.qr-icon-corporative:before {
+  content: "\e94a";
+}
+.qr-icon-fast:before {
+  content: "\e945";
+}
+.qr-icon-bascula:before {
+  content: "\e946";
+}
+.qr-icon-family:before {
+  content: "\e947";
+}
+.qr-icon-Intolerancia:before {
+  content: "\e941";
+}
+.qr-icon-calendar-one:before {
+  content: "\e942";
+}
+.qr-icon-sport:before {
+  content: "\e943";
+}
+.qr-icon-calendar-ten:before {
+  content: "\e944";
+}
+.qr-icon-genetic:before {
+  content: "\e940";
+}
+.qr-icon-fitur:before {
+  content: "\e93f";
+}
+.qr-icon-delete-cart:before {
+  content: "\e93e";
+}
+.qr-icon-health-digital:before {
+  content: "\e93d";
+}
+.qr-icon-users:before {
+  content: "\e93c";
+}
+.qr-icon-antigeno:before {
+  content: "\e94b";
+}
+.qr-icon-gestor:before {
+  content: "\e93b";
+}
+.qr-icon-plan-health:before {
+  content: "\e93a";
+}
+.qr-icon-calendar-year:before {
+  content: "\e937";
+}
+.qr-icon-chat:before {
+  content: "\e938";
+}
+.qr-icon-calendar_semestral:before {
+  content: "\e94c";
+}
+.qr-icon-calendar-semestral:before {
+  content: "\e939";
+}
+.qr-icon-aviso-consult:before {
+  content: "\e935";
+}
+.qr-icon-alarm:before {
+  content: "\e936";
+}
+.qr-icon-radiodiagn:before {
+  content: "\e932";
+}
+.qr-icon-lab-analityc:before {
+  content: "\e933";
+}
+.qr-icon-Evaluator:before {
+  content: "\e934";
+}
+.qr-icon-urgencies:before {
+  content: "\e930";
+}
+.qr-icon-pediatry:before {
+  content: "\e931";
+}
+.qr-icon-no-date:before {
+  content: "\e92f";
+}
+.qr-icon-discount-num:before {
+  content: "\e92e";
+}
+.qr-icon-leaf:before {
+  content: "\e92d";
+}
+.qr-icon-arrow-nav:before {
+  content: "\e92c";
+}
+.qr-icon-package:before {
+  content: "\e92b";
+}
+.qr-icon-filters:before {
+  content: "\e92a";
+}
+.qr-icon-discount:before {
+  content: "\e928";
+}
+.qr-icon-computer:before {
+  content: "\e929";
+}
+.qr-icon-calendar:before {
+  content: "\e927";
+}
+.qr-icon-prescription:before {
+  content: "\e925";
+}
+.qr-icon-time:before {
+  content: "\e926";
+}
+.qr-icon-antigeno1:before {
+  content: "\e924";
+}
+.qr-icon-arrow-down:before {
+  content: "\e923";
+}
+.qr-icon-formulario:before {
+  content: "\e91b";
+}
+.qr-icon-mobile:before {
+  content: "\e91c";
+}
+.qr-icon-mail:before {
+  content: "\e91d";
+}
+.qr-icon-facebook:before {
+  content: "\e91e";
+}
+.qr-icon-youtube:before {
+  content: "\e994";
+}
+.qr-icon-twitter:before {
+  content: "\e992";
+}
+.qr-icon-ig:before {
+  content: "\e98e";
+}
+.qr-icon-linkedin:before {
+  content: "\e98f";
+}
+.qr-icon-cookies:before {
+  content: "\e990";
+}
+.qr-icon-bono:before {
+  content: "\e98b";
+}
+.qr-icon-pcr:before {
+  content: "\e921";
+}
+.qr-icon-profile-service:before {
+  content: "\e920";
+}
+.qr-icon-close:before {
+  content: "\e919";
+}
+.qr-icon-virus:before {
+  content: "\e918";
+}
+.qr-icon-consult:before {
+  content: "\e915";
+}
+.qr-icon-mask:before {
+  content: "\e914";
+}
+.qr-icon-square-all:before {
+  content: "\e913";
+}
+.qr-icon-check:before {
+  content: "\e912";
+}
+.qr-icon-exit:before {
+  content: "\e911";
+}
+.qr-icon-cam:before {
+  content: "\e993";
+}
+.qr-icon-doctor-team:before {
+  content: "\e995";
+}
+.qr-icon-esthetic:before {
+  content: "\e991";
+}
+.qr-icon-hamburger:before {
+  content: "\e98d";
+}
+.qr-icon-heart:before {
+  content: "\e98c";
+}
+.qr-icon-home:before {
+  content: "\e98a";
+}
+.qr-icon-not-insurance:before {
+  content: "\e922";
+}
+.qr-icon-ocular:before {
+  content: "\e91f";
+}
+.qr-icon-offer:before {
+  content: "\e91a";
+}
+.qr-icon-phone:before {
+  content: "\e917";
+}
+.qr-icon-place:before {
+  content: "\e916";
+}
+.qr-icon-search:before {
+  content: "\e90e";
+}
+.qr-icon-setting-bag:before {
+  content: "\e90f";
+}
+.qr-icon-user-profile:before {
+  content: "\e910";
+}
+.qr-icon-hospital:before {
+  content: "\e90d";
+}
+.qr-icon-info:before {
+  content: "\e996";
+}

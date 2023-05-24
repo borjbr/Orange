@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "ACCA,AAAA,SAAS,AAAC,CAAC,UAAU,CAAE,KAAK,CAAG,AAC/B,AAAA,QAAQ,AAAC,CAAC,UAAU,CAAE,IAAI,CAAG,AAC7B,AAAA,UAAU,AAAC,CAAC,UAAU,CAAE,MAAM,CAAG",
+    "sources": [
+        "../04-elements/elements.scss",
+        "../04-elements/_general.scss"
+    ],
+    "names": [],
+    "file": "elements.min.css"
+}

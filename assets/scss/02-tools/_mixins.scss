@@ -1,0 +1,47 @@
+// Mixins comunes
+
+// Mixin que oculta contenido necesario para accesibilidad.
+@mixin sr-only() {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+
+
+@mixin make-font-style($font-family: $font-primary, $font-size: $font-size-m, $font-weight: $font-regular, $line-height: 1, $color: $color-black, $letter-spacing: 0, $margin: $sp-l 0 ) {
+	font-family: $font-family;
+	font-size: $font-size;
+	font-weight: $font-weight;
+	line-height: $line-height;
+	color: $color;
+	letter-spacing: $letter-spacing;
+	margin: $margin;
+}
+
+
+// Clearfix
+@mixin clearfix {
+  &::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+}
+
+
+@mixin text-font-neo-bold {
+  strong {
+    font-family: $ff-neosansbold;
+  }
+}
+
+@mixin text-font-open-bold {
+  strong {
+    font-family: $ff-opensansbold;
+  }
+}

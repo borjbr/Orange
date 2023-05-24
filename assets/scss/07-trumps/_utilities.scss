@@ -1,0 +1,31 @@
+// Colors 
+
+.u-color--red {color: $color-red;}
+
+
+//Fonts
+.u-font--bold {font-weight: $font-bold;}
+.u-font--italic {font-style: italic;}
+.u-font--mutted {text-decoration: line-through;}
+
+
+
+.u-new-plan {
+  position: absolute;
+  width: 100.5%;
+  top: -24px;
+  left: -1px;
+  height: 24px;
+  background-color: $color-red;
+  border: solid 1px $color-red;
+  border-bottom: none;
+  text-align: center;
+  color: $color-white;
+  font-size: 11px;
+  font-weight: $font-bold;
+  text-transform: uppercase;
+}
+
+.u-text--discount {color: $color-red;}
+
+

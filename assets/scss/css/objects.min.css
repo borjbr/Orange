@@ -1,0 +1,2 @@
+.visible{display:block}.hidden{display:none}.visible-xs{display:none !important}@media (max-width: 575px){.visible-xs{display:block !important}.hidden-xs{display:none !important}}@media (max-width: 480px){.order-12{order:12}.order-1{order:1}}
+/*# sourceMappingURL=objects.min.css.map */
