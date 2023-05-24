@@ -1,29 +1,5 @@
 /*****  QUIRON FONT *****/
-@font-face {
-  font-family: 'NeoSansStdRegular';
-  src: url('../fonts/NeoSansStdRegular.eot');
-  src: url('../fonts/NeoSansStdRegular.eot') format('embedded-opentype'),
-    url('../fonts/NeoSansStdRegular.woff2') format('woff2'),
-    url('../fonts/NeoSansStdRegular.woff') format('woff'),
-    url('../fonts/NeoSansStdRegular.ttf') format('truetype'),
-    url('../fonts/NeoSansStdRegular.svg#NeoSansStdRegular') format('svg');
-    font-weight: 400;
-    font-style: normal;
-    font-display: swap;
-}
 
-@font-face {
-  font-family: 'NeoSansBold';
-  src: url('../fonts/NeoSansPro-Bold.eot');
-  src: url('../fonts/NeoSansPro-Bold.eot?#iefix') format('embedded-opentype'),
-    url('../fonts/NeoSansPro-Bold.otf') format('opentype'),
-    url('../fonts/NeoSansPro-Bold.svg') format('svg'),
-    url('../fonts/NeoSansPro-Bold.ttf') format('truetype'),
-    url('../fonts/NeoSansPro-Bold.woff') format('woff'),
-    url('../fonts/NeoSansPro-Bold.woff2') format('woff2');
-  font-style: normal;
-  font-display: swap;
-}
 
 @font-face {
   font-family: 'OpenSansRegular';
@@ -50,8 +26,6 @@
     font-display: swap;
 }
 
-$ff-neosansregular: 'NeoSansStdRegular';
-$ff-neosansbold: 'NeoSansBold';
 $ff-opensansregular: 'OpenSansRegular';
 $ff-opensansbold: 'OpenSansBold';
 

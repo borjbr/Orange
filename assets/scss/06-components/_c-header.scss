@@ -1,0 +1,19 @@
+.c-header {
+  width: 100%;
+  background-color: $color-black;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  &-content{
+    display: flex;
+    justify-content: space-between;
+    &__title {
+      color: $color-white;
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    &__logo {
+      width: 50px;
+    }
+  }
+}
