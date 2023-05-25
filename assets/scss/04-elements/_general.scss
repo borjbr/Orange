@@ -4,39 +4,9 @@
 .ta-center {text-align: center;}
 
 .js-error-text {
-  font-family: $ff-opensansregular;
   font-size: 11px;
   display: block;
   text-align: left;
   color: $color-red;
   line-height: $size-16;
 }
-
-.u-text--discount {color:$color-red;}
-.u-text--strike {text-decoration: line-through;}
-
-
-.u-overflow {overflow: hidden;}
-
-.u-overflow-menu {
-  overflow-y: auto;
-}
-
-.u-home-conditions {
-  font-family: $ff-opensansregular;
-  margin-top: $space-16;
-  color: $color-base;
-  font-size: 12px;
-  strong {
-    font-family: $ff-opensansbold;
-  }
-}
-
-// Fondos Categorias Home 
-
-.u-bg-salud-mental {background: url(/img/cms/home/home_saludmental.jpg);}
-.u-bg-test-covid {background: url(/img/cms/home/home_test.jpg);}
-.u-bg-nutricion {background: url(/img/cms/home/home_nutricion.jpg);}
-.u-bg-genetica {background: url(/img/cms/home/home_genetica_tab.jpg);}
-.u-bg-blog-adn {background: url(/img/cms/home/home_blog_adn.jpg);}
-.u-bg-blog-salud-mental {background: url(/img/cms/home/home_blog_salud_mental.jpg);}

@@ -1,0 +1,81 @@
+.c-banner {
+  padding: 120px 0;
+  background: url('../img/bg-banner-01.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &-title {
+    font-size: $size-48;
+    line-height: $space-56;
+    font-weight: $font-bold;
+    color: $color-base;
+    margin-bottom: $space-32;
+    span {
+      display: block;
+    }
+  }
+  &-promo {
+    background-color: rgba(0,0,0,0.5);
+    padding: $space-32;
+    border-radius: $border-rd-20;
+    position: relative;
+    text-align: center;
+    &__info {
+      text-align: left;
+      &-title {
+        font-size: $size-32;
+        line-height: 1;
+        color: $color-white;
+        font-weight: $font-bold;
+        margin-bottom: 0;
+      }
+      &-subtitle {
+        font-size: $size-24;
+        line-height: 1;
+        color: $color-white;
+        font-weight: $font-bold;
+        margin-bottom: $space-16;
+      }
+      &-text {
+        font-size: $size-24;
+        text-align: center;
+        color: $color-base;
+        font-weight: $font-bold;
+        line-height: 1;
+        margin-bottom: $space-8;
+      }
+      &-logos {
+        display: flex;
+        gap: $space-16;
+        align-items: center;
+        justify-content: center;
+        img{
+          width: 78px;
+        }
+      }
+      &-price {
+        margin-top: $space-8;
+        p {
+          font-size: $size-48;
+          line-height: 1;
+          font-weight: $font-bold;
+          color: $color-white;
+          span {
+            font-size: $size-32;
+          }
+        }
+      }
+    }
+    &:after {
+      content: "!";
+      font-family: Helvetica, sans-serif;
+      font-weight: $font-bold;
+      font-size: 96px;
+      line-height: 1;
+      position: absolute;
+      left: -16px;
+      top: -28px;
+      color: $color-base;
+    }
+  }
+}

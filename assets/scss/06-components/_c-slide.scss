@@ -32,12 +32,16 @@
     &__info {
       display: flex;
       align-items: center;
-      gap: 4px;
+      gap: 12px;
       &-text {
         color: $color-white;
+        font-weight: $font-bold;
       }
       &-logo{
-        width: $size-48;
+        width: $size-56;
+        &--dazn {
+          width: $size-40;
+        }
       }
     }
   }
@@ -63,18 +67,18 @@
         font-weight: $font-bold;
         color: $color-base;
         margin-bottom: 8px;
-        left: -16px;
-        bottom: -8px;
+        left: -$space-16;
+        bottom: -$space-8;
         span {
           position: absolute;
-          top: 8px;
-          font-size: $size-56;
+          top: 6px;
+          font-size: 50px;
         }
       }
       &-date {
         position: absolute;
         right: 22px;
-        bottom: $space-24;
+        bottom: $space-48;
         color: $color-base;
         font-size: $size-16;
       }
@@ -82,6 +86,7 @@
         font-size: $size-16;
         color: $color-base;
         font-weight: $font-bold;
+        margin-bottom: $space-16;
       }
     }
     &__channel {
@@ -89,8 +94,11 @@
       grid-template-columns: repeat(2, 1fr);
       grid-gap: $space-8;
       &-logo {
-        width: $size-56;
+        width: 60px;
         text-align: center;
+        &--dazn {
+          width: $size-40;
+        }
       }
     }
   }
