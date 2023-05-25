@@ -78,4 +78,28 @@
       color: $color-base;
     }
   }
+  &-product {
+    display: flex;
+    img {
+      position: relative;
+      left:-44px;
+      top: $space-24;
+      width: 150px;
+    }
+    &__promo {
+      font-weight: $font-bold;
+      color: $color-white;
+      line-height: 1;
+      &-text {
+        font-size: $size-40;
+        margin-top: $space-24;
+      }
+      &-price {
+        font-size: $size-80;
+        span {
+          font-size: $size-56;
+        }
+      }
+    }
+  }
 }
