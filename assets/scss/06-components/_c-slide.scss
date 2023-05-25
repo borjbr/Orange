@@ -103,3 +103,45 @@
     }
   }
 }
+
+@media (max-width: 575px) {
+
+  .c-slide {
+    padding: $space-56 0;
+    &-title {
+      font-size: $size-24;
+      line-height: 1;
+    }
+    &-bullet {
+      width: 180px;
+      height: 180px;
+      padding-top: 12px;
+      &__info {
+        &-price {
+          font-size: $size-56;
+          span {
+            font-size: $size-28;
+            top: 6px;
+          }
+        }
+        &-text {
+          font-size: 12px;
+          margin-bottom: $space-8;
+        }
+        &-date {
+          right: 18px;
+          bottom: $size-32;
+          font-size: 14px;
+        }
+      }
+      &__channel {
+        &-logo {
+          width: 44px;
+          &--dazn {
+            width: $size-32;
+          }
+        }
+      }
+    }
+  }
+}

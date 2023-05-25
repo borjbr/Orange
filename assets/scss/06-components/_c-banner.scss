@@ -73,8 +73,8 @@
       font-size: 96px;
       line-height: 1;
       position: absolute;
-      left: -16px;
-      top: -28px;
+      left: -$size-16;
+      top: -$size-28;
       color: $color-base;
     }
   }
@@ -82,13 +82,13 @@
     display: flex;
     img {
       position: relative;
-      left:-44px;
+      left:-$size-32;
       top: $space-24;
       width: 150px;
     }
     &__promo {
       font-weight: $font-bold;
-      color: $color-white;
+      color: $color-base;
       line-height: 1;
       &-text {
         font-size: $size-40;
@@ -98,6 +98,55 @@
         font-size: $size-80;
         span {
           font-size: $size-56;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 575px) {
+  .c-banner {
+    padding: $space-56 0;
+    &-title {
+      font-size: $size-24;
+      line-height: 1;
+    }
+    &-promo {
+      padding: $space-24;
+      &__info {
+        &-title,
+        &-subtitle {
+          font-size: 22px;
+          margin-bottom: $space-8;
+        }
+        &-text {
+          font-size: $size-16;
+        }
+        &-price {
+          p {
+            font-size: $size-32;
+            span {
+              font-size: $size-16;
+            }
+          }
+        }
+      }
+      &:after {
+        font-size: $size-72;
+        left: -10px;
+        top: -14px;
+      }
+    }
+    &-product {
+      flex-direction: column;
+      img {
+        width: 78px;
+        height: 160px;
+        top: $size-16;
+      }
+      &__promo {
+        &-text {
+          font-size: 14px;
         }
       }
     }
